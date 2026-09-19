@@ -52,3 +52,41 @@ radar-synthetic-augmentation/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
+```
+## Dataset
+
+The original radar measurements are not redistributed in this repository.
+They can be obtained from the dataset provider:
+
+A. Karlsson, *Radar Measurements on Drones, Birds and Humans with a
+77 GHz FMCW Sensor*, Version 2.0, Zenodo, 2021.  
+https://doi.org/10.5281/zenodo.5845259
+
+See [`data/README.md`](data/README.md) for the expected local directory
+structure.
+
+## Reproducibility
+
+The notebooks are numbered in their intended execution order. Generated
+summary tables and figures are available under [`results/`](results/).
+
+The notebooks were developed using Python 3.13 and TensorFlow 2.21. Install
+the required packages with:
+
+```bash
+pip install -r requirements.txt
+```
+Raw data, processed tensors, trained checkpoints, and other large generated
+artifacts are intentionally excluded from version control.
+
+## Limitations
+
+The findings are based on one radar dataset. Synthetic samples are transformed
+descendants of real observations and should not be interpreted as independent
+physical radar measurements. Results may therefore not generalize to other
+radar sensors, acquisition conditions, environments, or target populations.
+
+## License
+
+The source code is distributed under the [MIT License](LICENSE). The original
+radar dataset remains subject to the licence terms specified by its provider.
