@@ -1,0 +1,52 @@
+# External and generated datasets
+data/**
+!data/README.md
+*.npy
+*.npz
+*.mat
+
+# Models and checkpoints
+checkpoints/
+models/
+*.keras
+*.h5
+*.weights.h5
+*.ckpt
+*.ckpt.*
+
+# Generated experiment outputs
+outputs/*
+
+# publication-ready results only
+!outputs/final_results_synthesis/
+outputs/final_results_synthesis/*
+!outputs/final_results_synthesis/*.csv
+!outputs/final_results_synthesis/*.png
+
+!outputs/report_assets/
+outputs/report_assets/*
+!outputs/report_assets/*.png
+!outputs/report_assets/*.csv
+!outputs/report_assets/*.tex
+
+# Predictions can contain one record per dataset observation
+**/test_predictions.csv
+**/validation_predictions.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+*.env
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db

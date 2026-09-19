@@ -1,0 +1,8 @@
+experiment,directory,directory_exists,csv_files,json_files,png_files,total_result_files
+baseline_classification,..\outputs\baseline_classification,True,35,4,0,39
+real_data_learning_curve,..\outputs\real_data_learning_curve,False,0,0,0,0
+synthetic_data_generation,..\outputs\synthetic_data_generation,False,0,0,0,0
+synthetic_augmentation,..\outputs\synthetic_augmentation_classification,True,16,1,0,17
+multiseed_robustness,..\outputs\multiseed_augmentation_robustness,True,54,9,0,63
+synthetic_ratio_ablation,..\outputs\synthetic_ratio_ablation,True,24,6,0,30
+session_independent,..\outputs\session_independent_generalization,True,66,10,0,76

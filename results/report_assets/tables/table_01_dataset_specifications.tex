@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lc}
+\toprule
+Property & Value \\
+\midrule
+Radar system & SAAB SIRS 1600 FMCW radar \\
+Carrier frequency & 77 GHz \\
+Pulse repetition frequency & 17 kHz \\
+Measurement sessions & 130 \\
+Raw radar segments & 75,868 \\
+Raw segment representation & $5 \times 256$ complex samples \\
+Retained feature-axis interval & Bins 54--203, giving 150 retained bins \\
+Processed CNN input & $5 \times 150 \times 1$ \\
+Input normalization & Per-segment values scaled to $[0,1]$ \\
+Binary label encoding & Bird $=0$; drone $=1$ \\
+\bottomrule
+\end{tabular}
+\caption{Radar dataset and processed-input specifications.}
+\label{tab:dataset-specifications}
+\end{table}

@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lc}
+\toprule
+Component & Configuration \\
+\midrule
+Input & $5 \times 150 \times 1$ \\
+Convolution block 1 & 16 filters, $3 \times 7$ kernel, batch normalization, ReLU, $1 \times 2$ pooling \\
+Convolution block 2 & 32 filters, $3 \times 5$ kernel, batch normalization, ReLU, $1 \times 2$ pooling \\
+Convolution block 3 & 64 filters, $3 \times 3$ kernel, batch normalization, ReLU, $1 \times 2$ pooling \\
+Feature aggregation & Global average pooling \\
+Dense layer & 32 ReLU units, $L_2=10^{-4}$, dropout $=0.30$ \\
+Output & One sigmoid unit \\
+Trainable architecture size & 29,121 parameters \\
+Optimizer & Adam, initial learning rate $10^{-3}$ \\
+Loss & Binary cross-entropy \\
+Batch size & 64 \\
+Maximum epochs & 50 \\
+Early stopping & Validation loss, patience 8 \\
+Learning-rate reduction & Factor 0.5, patience 4, minimum learning rate $10^{-6}$ \\
+Decision threshold & Maximum validation macro-F1, with balanced accuracy as tie-breaker \\
+\bottomrule
+\end{tabular}
+}
+\caption{Compact convolutional neural-network architecture and training configuration.}
+\label{tab:model-configuration}
+\end{table}

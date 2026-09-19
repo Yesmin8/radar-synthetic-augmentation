@@ -1,0 +1,13 @@
+true_target_group,original_label,samples,10% real + synthetic 1:1,10% real-only,25% real-only,augmentation_change_vs_10_percent,augmentation_difference_from_25_percent,support_note
+bird,pigeon,4,1.0,0.0,1.0,1.0,0.0,Very limited support
+bird,raven,1,1.0,0.0,1.0,1.0,0.0,Very limited support
+bird,black-headed gull,599,0.9215358931552587,0.7929883138564274,0.9482470784641068,0.12854757929883132,-0.026711185308848084,Adequate descriptive support
+bird,seagull,303,0.8481848184818482,0.7458745874587459,0.8613861386138614,0.10231023102310233,-0.013201320132013139,Adequate descriptive support
+bird,seagull and black-headed gull,45,0.9111111111111112,0.9333333333333332,0.8888888888888888,-0.022222222222222032,0.022222222222222365,Adequate descriptive support
+bird,heron,45,0.7333333333333333,0.9333333333333332,0.8222222222222222,-0.19999999999999996,-0.0888888888888889,Adequate descriptive support
+drone,D1,1000,0.944,0.702,0.977,0.242,-0.03300000000000003,Adequate descriptive support
+drone,D3,1000,0.957,0.88,0.971,0.07699999999999996,-0.014000000000000012,Adequate descriptive support
+drone,D5,1000,0.997,0.943,0.997,0.05400000000000005,0.0,Adequate descriptive support
+drone,D2,1000,1.0,0.972,1.0,0.028000000000000025,0.0,Adequate descriptive support
+drone,D4,999,1.0,0.977977977977978,1.0,0.02202202202202197,0.0,Adequate descriptive support
+drone,D6,1000,0.999,0.997,0.999,0.0020000000000000018,0.0,Adequate descriptive support

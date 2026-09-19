@@ -1,0 +1,9 @@
+quality_indicator,value
+Bird mean aligned correlation,0.9813653826713562
+Drone mean aligned correlation,0.9883723258972168
+Bird median aligned correlation,0.9847219586372375
+Drone median aligned correlation,0.9916862845420836
+Samples below 0.80 aligned correlation,0.0
+Mean bird clipped fraction,0.0059176811594202
+Mean drone clipped fraction,0.0268799999999999
+PCA variance explained by two components,0.5904014706611633

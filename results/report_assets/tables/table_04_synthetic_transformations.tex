@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcc}
+\toprule
+Transformation & Configuration & Boundary or reference rule \\
+\midrule
+Feature-axis translation & $-5$ to $+5$ bins & Nearest boundary value; no circular wrapping \\
+Amplitude scaling & $0.90$ to $1.10$ & Applied multiplicatively \\
+Contrast adjustment & $0.90$ to $1.10$ & Applied around the sample mean \\
+Additive Gaussian noise & Standard deviation $0.002$ to $0.015$ & Zero-mean noise \\
+Partial feature masking & Probability $0.30$; width 2--6 bins; sample-mean fill & Contiguous mask along the feature axis \\
+Final clipping & $[0,1]$ & Preserves the preprocessing interval \\
+\bottomrule
+\end{tabular}
+}
+\caption{Controlled transformations used to generate synthetic training samples.}
+\label{tab:synthetic-transformations}
+\end{table}

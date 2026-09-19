@@ -1,0 +1,3 @@
+parent_target_group,samples,raw_mean_mae,aligned_mean_mae,raw_mean_correlation,aligned_mean_correlation,aligned_median_correlation,minimum_aligned_correlation
+bird,575,0.098012775,0.025712695,0.31405988,0.9813654,0.98472196,0.8233253
+drone,575,0.089625694,0.021790298,0.6300792,0.9883723,0.9916863,0.8158383

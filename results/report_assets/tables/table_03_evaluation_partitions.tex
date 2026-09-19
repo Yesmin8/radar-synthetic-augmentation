@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Protocol & Partition & Samples & Birds & Drones & Sessions \\
+\midrule
+Official segment-level & Training & 52,509 & 5,749 & 46,760 & Not isolated \\
+Official segment-level & Validation & 6,988 & 990 & 5,998 & Not isolated \\
+Official segment-level & Test & 6,996 & 997 & 5,999 & Not isolated \\
+Session-independent & Training & 53,011 & 6,236 & 46,775 & 80 \\
+Session-independent & Validation & 6,943 & 812 & 6,131 & 10 \\
+Session-independent & Test & 6,539 & 688 & 5,851 & 10 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Composition of the official and session-independent evaluation partitions.}
+\label{tab:evaluation-partitions}
+\end{table}

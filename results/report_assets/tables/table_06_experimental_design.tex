@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcc}
+\toprule
+Experiment & Training conditions & Selection or evaluation rule \\
+\midrule
+Real-data learning curve & 10\%, 25\%, 50\%, and 100\% balanced real data & Same official validation and test partitions \\
+Initial augmentation comparison & 10\% real-only versus 10\% real plus synthetic 1:1 & Threshold selected on validation data \\
+Multi-seed robustness & Real-only versus augmented using seeds 42, 52, 62, 72, and 82 & Paired seeds and locked validation thresholds \\
+Synthetic-ratio ablation & Synthetic-to-real ratios 0:1, 0.5:1, and 1:1 across five seeds & Ratio selected using validation results only \\
+Session-independent evaluation & 10\% session-independent real-only versus real plus synthetic 1:1 across five seeds & Disjoint training, validation, and test recording sessions \\
+\bottomrule
+\end{tabular}
+}
+\caption{Summary of the principal experiments.}
+\label{tab:experimental-design}
+\end{table}

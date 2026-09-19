@@ -1,0 +1,156 @@
+{
+  "experiment": "final_results_synthesis",
+  "created_utc": "2026-09-17T14:46:08.064350+00:00",
+  "analysis_mode": "saved_artifacts_only",
+  "safety": {
+    "model_training_performed": false,
+    "new_test_inference_performed": false,
+    "new_threshold_selection_performed": false
+  },
+  "model_seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ],
+  "selected_synthetic_to_real_ratio": 1.0,
+  "ratio_selection_partition": "validation",
+  "source_artifact_count": 24,
+  "core_results": {
+    "official_split": {
+      "real_only_macro_f1_mean": 0.8002599984327115,
+      "augmented_macro_f1_mean": 0.920877950882965,
+      "real_only_bird_f1_mean": 0.6748660784160527,
+      "augmented_bird_f1_mean": 0.8653939529238043
+    },
+    "session_independent_split": {
+      "real_only_macro_f1_mean": 0.8485337322902797,
+      "augmented_macro_f1_mean": 0.96150339096509,
+      "real_only_bird_f1_mean": 0.7427246356570791,
+      "augmented_bird_f1_mean": 0.9313814823708186
+    }
+  },
+  "source_artifacts": {
+    "learning_curve": {
+      "relative_path": "outputs\\baseline_classification\\real_data_learning_curve.csv",
+      "size_bytes": 1208,
+      "sha256": "e1a5eb1be1e6fb9b8f7051fc238c5ed42129b1baf26750887fc69d1d6b2f8cda"
+    },
+    "learning_curve_incremental": {
+      "relative_path": "outputs\\baseline_classification\\real_data_incremental_improvements.csv",
+      "size_bytes": 1408,
+      "sha256": "32b4e1647267c2c3dd28c167c14f22090e0dd7847cdad29b49556508ebd3b790"
+    },
+    "synthetic_quality": {
+      "relative_path": "outputs\\synthetic_data_validation\\10_percent_signal_augmentation_ratio_1_seed_42\\quality_summary.csv",
+      "size_bytes": 434,
+      "sha256": "d445586c8595f41e41c731066724afd47858eb87db7a483e4eabed86b5f977e3"
+    },
+    "synthetic_similarity": {
+      "relative_path": "outputs\\synthetic_data_validation\\10_percent_signal_augmentation_ratio_1_seed_42\\parent_similarity_summary.csv",
+      "size_bytes": 341,
+      "sha256": "de862f8bec8745adbfdd492485597187982f9b17b40c2358243587b8dbc3776d"
+    },
+    "synthetic_alignment": {
+      "relative_path": "outputs\\synthetic_data_validation\\10_percent_signal_augmentation_ratio_1_seed_42\\alignment_summary.csv",
+      "size_bytes": 311,
+      "sha256": "9675c9ee08eb5c75f61cc57c62118ebc94d6c5a83e3e4568e19846a44102c4d3"
+    },
+    "synthetic_distribution": {
+      "relative_path": "outputs\\synthetic_data_validation\\10_percent_signal_augmentation_ratio_1_seed_42\\distribution_summary.csv",
+      "size_bytes": 401,
+      "sha256": "f1b98c1ddd88c3813b9020ada396473b08b844921f845d5c26126286c2a5ecd1"
+    },
+    "augmentation_baseline_comparison": {
+      "relative_path": "outputs\\synthetic_augmentation_classification\\10_percent_real_plus_synthetic_1_to_1_seed_42\\baseline_comparison.csv",
+      "size_bytes": 611,
+      "sha256": "576dd3b7989b698fd060472b486c0e133fb4c7d7ddb4de2ecfd23f323722ba15"
+    },
+    "augmentation_improvement": {
+      "relative_path": "outputs\\synthetic_augmentation_classification\\10_percent_real_plus_synthetic_1_to_1_seed_42\\augmentation_improvement.csv",
+      "size_bytes": 670,
+      "sha256": "5de0c4aa642caa1f092d7fcf27607a0f42a3d8dc36b1ce6ee474f2a2e7a4b1ac"
+    },
+    "augmentation_subtype_metrics": {
+      "relative_path": "outputs\\synthetic_augmentation_classification\\10_percent_real_plus_synthetic_1_to_1_seed_42\\subtype_metrics.csv",
+      "size_bytes": 754,
+      "sha256": "7122dda9d133cbb3bdb486d9fc8e6e865dede0cc02e24114e44d85066601bf15"
+    },
+    "augmentation_range_metrics": {
+      "relative_path": "outputs\\synthetic_augmentation_classification\\10_percent_real_plus_synthetic_1_to_1_seed_42\\range_metrics.csv",
+      "size_bytes": 743,
+      "sha256": "ba83a40e956c133543c0880fa7186b1b9e60a11abf21b07774c4d888cbcac0b8"
+    },
+    "multiseed_test_metrics": {
+      "relative_path": "outputs\\multiseed_augmentation_robustness\\all_seed_test_metrics.csv",
+      "size_bytes": 2955,
+      "sha256": "cc8e2e68deb06204956243a530ccbf8ef53ce4e93d8257909a254c3b90863ce6"
+    },
+    "multiseed_configuration_summary": {
+      "relative_path": "outputs\\multiseed_augmentation_robustness\\configuration_summary.csv",
+      "size_bytes": 1841,
+      "sha256": "898c9f476d4a710b71a4213d4469d110219fdb5d9b9ab35bfb82acaa897cc234"
+    },
+    "multiseed_paired_improvement": {
+      "relative_path": "outputs\\multiseed_augmentation_robustness\\paired_improvement_summary.csv",
+      "size_bytes": 1299,
+      "sha256": "1c617910b0d08f7b5c82047f77d2e043969c4437a6a05a4931084c4606476bc5"
+    },
+    "multiseed_stability": {
+      "relative_path": "outputs\\multiseed_augmentation_robustness\\stability_summary.csv",
+      "size_bytes": 1182,
+      "sha256": "2c83404875647d42e0477cf58ac0e619eb24c2ffb0c70bee10993867b0afb921"
+    },
+    "ratio_validation_results": {
+      "relative_path": "outputs\\synthetic_ratio_ablation\\validation_ratio_results.csv",
+      "size_bytes": 3588,
+      "sha256": "70590db3e557dc2fb513af81d6a16f7d5d01e9e98daf37e70faddef21c16eb19"
+    },
+    "ratio_validation_summary": {
+      "relative_path": "outputs\\synthetic_ratio_ablation\\validation_ratio_summary.csv",
+      "size_bytes": 2827,
+      "sha256": "7df4b8011dfafde119f672a674b4886f4077c6a0bafb43d313c3fc248217a094"
+    },
+    "ratio_efficiency": {
+      "relative_path": "outputs\\synthetic_ratio_ablation\\ratio_efficiency_summary.csv",
+      "size_bytes": 1307,
+      "sha256": "03c3b741103f13a325079c033df2576a28559460d563c1df67045316ea9bc8e7"
+    },
+    "ratio_selection_manifest": {
+      "relative_path": "outputs\\synthetic_ratio_ablation\\ratio_selection_manifest.json",
+      "size_bytes": 791,
+      "sha256": "c16d56b353e766257a81b0a16dc38c5374d34a4679ab7f294af79be09aa2f427"
+    },
+    "session_test_metrics": {
+      "relative_path": "outputs\\session_independent_generalization\\all_seed_test_metrics.csv",
+      "size_bytes": 3391,
+      "sha256": "8e4f1674b4dfca07aca569c440f98c056747fccf7bf3b20397a3f3e2658e971c"
+    },
+    "session_configuration_summary": {
+      "relative_path": "outputs\\session_independent_generalization\\configuration_summary.csv",
+      "size_bytes": 1880,
+      "sha256": "968dcf187b7a7c35de8d5d731bf65209af220dd6a0d6c573f367a7a3687ebccf"
+    },
+    "session_paired_improvement": {
+      "relative_path": "outputs\\session_independent_generalization\\paired_improvement_summary.csv",
+      "size_bytes": 1415,
+      "sha256": "94965ca6b19627d9ad5fa76ca60f392491554ab29463c20f94ab9b86a1445aa6"
+    },
+    "split_protocol_comparison": {
+      "relative_path": "outputs\\session_independent_generalization\\official_vs_session_independent_comparison.csv",
+      "size_bytes": 888,
+      "sha256": "d67422d6c015e2d5d65dbeaa87ad8a74993a3b46ece5f19b9212ffa175b9998a"
+    },
+    "subtype_recall_comparison": {
+      "relative_path": "outputs\\synthetic_augmentation_classification\\10_percent_real_plus_synthetic_1_to_1_seed_42\\subtype_recall_comparison.csv",
+      "size_bytes": 1102,
+      "sha256": "d4d273932d01a2a3dec7a1e78dcbc91fca0a1a9cae95bee732bdbbc04df83cec"
+    },
+    "range_baseline_comparison": {
+      "relative_path": "outputs\\synthetic_augmentation_classification\\10_percent_real_plus_synthetic_1_to_1_seed_42\\range_baseline_comparison.csv",
+      "size_bytes": 2127,
+      "sha256": "26149575b9e5c9c62f03dacaa752b88dcc95b32b10896af19156a0c9a2e9a2c7"
+    }
+  }
+}

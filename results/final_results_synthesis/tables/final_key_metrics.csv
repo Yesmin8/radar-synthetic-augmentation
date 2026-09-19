@@ -1,0 +1,9 @@
+experimental_context,metric,reference_value,augmented_value,absolute_change,interpretation
+Official segment-level split,Balanced accuracy,0.8517940552780194,0.926802043068696,0.07500798779067652,Five-seed mean test performance
+Official segment-level split,Macro-F1,0.8002599984327115,0.920877950882965,0.12061795245025353,Five-seed mean test performance
+Official segment-level split,Bird F1,0.6748660784160527,0.8653939529238043,0.19052787450775155,Five-seed mean test performance
+Session-independent split,Balanced accuracy,0.8941438901320783,0.9722926263846768,0.07814873625259855,Five-seed mean test performance
+Session-independent split,Macro-F1,0.8485337322902797,0.96150339096509,0.11296965867481024,Five-seed mean test performance
+Session-independent split,Bird F1,0.7427246356570791,0.9313814823708186,0.1886568467137395,Five-seed mean test performance
+Official test targets beyond 75 m,Balanced accuracy,0.749124649859944,0.867734593837535,0.11860994397759106,Single-seed target-range analysis
+Official test targets beyond 75 m,Macro-F1,0.4584893702828829,0.7756947214466161,0.3172053511637332,Single-seed target-range analysis

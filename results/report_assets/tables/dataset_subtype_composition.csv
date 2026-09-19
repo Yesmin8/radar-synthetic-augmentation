@@ -1,0 +1,13 @@
+original_label,sessions,total_segments,train,validation,test,edge_samples,target_group,usable_segments
+raven,1,19,16,2,1,2,Bird,17
+pigeon,1,32,25,3,4,4,Bird,28
+heron,5,387,284,58,45,0,Bird,387
+seagull and black-headed gull,4,440,334,61,45,0,Bird,440
+seagull,34,2550,1919,326,305,43,Bird,2507
+black-headed gull,11,4364,3214,550,600,7,Bird,4357
+D1,8,6921,4921,1000,1000,0,Drone,6921
+D4,4,8735,6735,1000,1000,3,Drone,8732
+D2,9,9555,7555,1000,1000,0,Drone,9555
+D3,4,10212,8212,1000,1000,0,Drone,10212
+D6,15,11252,9252,1000,1000,8,Drone,11244
+D5,4,12093,10093,1000,1000,0,Drone,12093

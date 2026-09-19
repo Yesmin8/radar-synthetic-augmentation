@@ -1,0 +1,3 @@
+target_group,mean_intensity_real,mean_intensity_synthetic,mean_intensity_relative_change_percent,mean_standard_deviation_real,mean_standard_deviation_synthetic,mean_standard_deviation_relative_change_percent,mean_energy_real,mean_energy_synthetic,mean_energy_relative_change_percent
+bird,0.44298124,0.4432832,0.06816541486045549,0.11499752,0.11431452,-0.593925851618368,0.21973243,0.22084613,0.506843709870225
+drone,0.3307673,0.33222258,0.43997094029548967,0.15100512,0.1511972,0.12720098497323212,0.14578345,0.14759503,1.2426513434823907
